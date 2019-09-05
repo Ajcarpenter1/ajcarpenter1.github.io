@@ -1,0 +1,10 @@
+body {background-color: pink}
+h1 {color:beige;}
+h2 {font-size: 50px;color:aqua;}
+img {border: 7px dashed green;
+    background-color: white;}
+
+p {color:black;
+    font-weight: 100} 
+
+.loc{color: mediumpurple;}
