@@ -1,0 +1,146 @@
+body {
+    background-color: black;
+    font-family: fantasy;
+    background-image: url(colors-dark-fall-leaves-602579.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+body.fall {
+    background-image: url(autumn-beautiful-bright-3070989.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+body.winter {
+    background-image: url(bird-s-eye-view-bright-close-up-1438761.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+body.spring {
+    background-image: url(blossom-branches-cherry-blossom-981369.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+body.summer {
+    background-image: url(beach-clear-sky-dawn-1032650.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: monospace;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+header {
+    background-color: white;
+    width: 100%;
+    font-size: 60px;
+    font-family: fantasy;
+
+    text-align: center;
+}
+
+nav {
+    padding: 20px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+
+
+
+nav ul {
+    margin: 0;
+    padding: o;
+}
+
+nav a {
+    color: black;
+    padding: 10px;
+    margin-right: 10px;
+    font-family: fantasy;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: white
+}
+
+
+section {
+    background-color: white;
+    padding: 40px;
+    overflow: auto;
+}
+
+h1 {
+    color: darkslategray;
+}
+
+div.box {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+.officer {
+    width: 30%;
+    float: right;
+}
+
+.fall footer {
+    background-color: orange;
+    font-family: fantasy;
+}
+
+.winter footer {
+    background-color: lightsteelblue;
+    font-family: fantasy;
+}
+
+.spring footer {
+    background-color: lightpink;
+    font-family: fantasy;
+}
+
+.summer footer {
+    background-color: lightblue;
+    font-family: fantasy;
+}
