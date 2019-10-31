@@ -1,0 +1,152 @@
+body {
+    background-color: black;
+    font-family: fantasy;
+    background-image: url(blackboard-chalkboard-communication-355988.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+body.good {
+    background-image: url(35mm-aerial-aerial-shot-1105766.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+body.good2 {
+    background-image: url(background-black-and-white-black-and-white-963278.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+body.bad {
+    background-image: url(black-and-white-black-and-white-cloud-formation-276374.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+body.more {
+    background-image: url(black-and-white-close-up-eye-2035214.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+header {
+    background-color: white;
+    width: 100%;
+    font-size: 60px;
+    font-family: fantasy;
+    text-decoration: underline;
+    text-align: center;
+}
+
+nav {
+    padding: 20px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+
+
+
+nav ul {
+    margin: 0;
+    padding: o;
+}
+
+nav a {
+    color: black;
+    padding: 10px;
+    margin-right: 10px;
+    font-family: fantasy;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: white
+}
+
+
+section {
+    background-color: white;
+    padding: 40px;
+    overflow: auto;
+}
+
+h1 {
+    color: darkslategray;
+}
+
+div.box {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+.officer {
+    width: 30%;
+    float: right;
+
+}
+
+.funny {
+    width: 30%;
+    float: left;
+}
+
+.fall footer {
+    background-color: orange;
+    font-family: fantasy;
+}
+
+.winter footer {
+    background-color: lightsteelblue;
+    font-family: fantasy;
+}
+
+.spring footer {
+    background-color: lightpink;
+    font-family: fantasy;
+}
+
+.summer footer {
+    background-color: lightblue;
+    font-family: fantasy;
+}
