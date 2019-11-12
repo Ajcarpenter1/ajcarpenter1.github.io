@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+    font-family: fantasy;
+    background-image: url(images/black-textile-952670.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+body.rock {
+    background-image: url(images/abstract-art-background-black-and-white-245250.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+body.rap {
+    background-image: url(images/blur-bokeh-bright-christmas-lights-831079.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+body.chill {
+    background-image: url(images/black-close-up-dark-dew-396547.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+body.more {
+    background-image: url(black-and-white-close-up-eye-2035214.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: fantasy;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+#wrap {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+
+
+header {
+    background-color: white;
+    width: 100%;
+    font-size: 60px;
+    font-family: fantasy;
+    text-decoration: underline;
+    text-align: center;
+}
+
+nav {
+    padding: 20px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+}
+
+
+
+
+nav ul {
+    margin: 0;
+    padding: o;
+}
+
+nav a {
+    color: black;
+    padding: 10px;
+    margin-right: 10px;
+    font-family: fantasy;
+    font-size: 20px;
+    text-decoration: none;
+    background-color: white
+}
+
+
+section {
+    background-color: white;
+    padding: 40px;
+    overflow: auto;
+}
+
+h1 {
+    color: darkslategray;
+    text-align: center;
+}
+
+div.box {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+    border: 10px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+
+
+.rock footer {
+    background-color: lightgray;
+    font-family: fantasy;
+}
+
+.rap footer {
+    background-color: lightgray;
+    font-family: fantasy;
+}
+
+.chill footer {
+    background-color: lightgray;
+    font-family: fantasy;
+}
