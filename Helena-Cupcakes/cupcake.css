@@ -1,0 +1,256 @@
+html,
+body {
+    font-family: Verdana, Geneva, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    width: 100%;
+    float: none;
+}
+
+#wrap {
+    width: 75%;
+    margin: auto;
+}
+
+header img {
+    width: 100%;
+    background-image: center;
+}
+
+nav {
+    background-color: #0EC8C7;
+    font-size: 20px;
+    padding: 2px;
+    text-align: center;
+    float: none;
+    font-family: monospace;
+}
+
+/* Change color on hover */
+.nav a:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+
+nav li {
+    color: white;
+    padding: 15px;
+    display: inline;
+    font-size: 20px;
+}
+
+
+nav li a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+
+section {
+    background-color: #EC3632;
+    overflow: auto;
+    margin: auto;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+
+
+.content {
+    float: right;
+    width: auto;
+}
+
+article {
+    background-color: white;
+    width: 75%;
+    padding: 20px;
+    float: right;
+    font-family: sans-serif;
+
+}
+
+
+
+h1 {
+    font-family: monospace;
+    font-size: 30px;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 30px;
+}
+
+#main {
+    float: left;
+    width: 100%;
+}
+
+.main {
+    background-color: #EC3632;
+    width: 20%;
+    margin: 0;
+    float: left;
+}
+
+.main li {
+    margin: 20px;
+    list-style: none;
+    padding: 0;
+    line-height: normal;
+}
+
+.main a {
+    text-decoration: none;
+    color: white;
+}
+
+.content {
+    width: 95%;
+    text-align: center;
+    float: none;
+}
+
+.content {
+    width: auto;
+    float: right;
+}
+
+
+footer {
+    background-color: #0EC8C7;
+    text-align: center;
+    font-family: Verdana, Genova, sans-serif;
+    margin: 0;
+    padding: 2px;
+}
+
+
+footer li {
+    display: inline;
+}
+
+footer li a {
+    padding: 15px;
+}
+
+/* On screens that are 900px wide or less, make the menu links stack on top of each other instead of next to each other */
+@media screen and (min-width: 906px) and (max-width: 1500px) {
+    #wrap {
+        width: 100%;
+    }
+
+    nav li a {
+        padding: 5px 25px;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 905px) {
+    #wrap {
+        width;
+        100%;
+    }
+
+    nav li {
+        padding: 5px 25px;
+    }
+
+    #wrap {
+        width: 100%;
+    }
+
+    #content {
+        width: 100%;
+        float: none;
+        padding: 10px;
+    }
+
+    #content p {
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    nav li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    h1 {
+        font-family: monospace;
+        font-size: 30px;
+    }
+
+    h2 {
+        font-family: monospace;
+        font-size: 30px;
+    }
+
+    #main {
+        float: left;
+        width: 100%;
+    }
+
+    .main {
+        background-color: #EC3632;
+        width: 100%;
+        margin: 0;
+        float: none;
+    }
+
+    .main li {
+        margin: 20px;
+        list-style: none;
+        padding: 0;
+        line-height: normal;
+    }
+
+    .main a {
+        text-decoration: none;
+        color: white;
+    }
+
+    .content {
+        width: 95%;
+        text-align: center;
+        float: none;
+    }
+
+    .content {
+        width: auto;
+        float: right;
+    }
+
+
+    footer {
+        background-color: #0EC8C7;
+        text-align: center;
+        font-family: Verdana, Genova, sans-serif;
+        margin: 0;
+        padding: 2px;
+    }
+
+
+    footer li {
+        display: inline;
+    }
+
+    footer li a {
+        padding: 15px;
+    }
+
+    #wrap {
+        width: 100%;
+    }
+
+    article {
+        width: 95%;
+    }
